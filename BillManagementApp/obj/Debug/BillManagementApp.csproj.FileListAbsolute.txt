@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\bin\Debug\BillManagementApp.exe.config
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\bin\Debug\BillManagementApp.exe
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\bin\Debug\BillManagementApp.pdb
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormLogin.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.Properties.Resources.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.exe
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.pdb
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormAdmin.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormAddReceptionist.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormReceptionist.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormAddTest.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormViewTests.resources
