@@ -31,8 +31,9 @@ namespace BillManagementApp
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdmin));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.btnChangePassword = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnViewTest = new System.Windows.Forms.Button();
             this.btnAddTests = new System.Windows.Forms.Button();
             this.btnAddReceptionist = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -49,8 +50,9 @@ namespace BillManagementApp
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Controls.Add(this.btnChangePassword);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnViewTest);
             this.panel1.Controls.Add(this.btnAddTests);
             this.panel1.Controls.Add(this.btnAddReceptionist);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -64,41 +66,53 @@ namespace BillManagementApp
             this.panel1.Size = new System.Drawing.Size(800, 450);
             this.panel1.TabIndex = 0;
             // 
+            // btnLogout
+            // 
+            this.btnLogout.Location = new System.Drawing.Point(657, 24);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(113, 37);
+            this.btnLogout.TabIndex = 19;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
             // btnChangePassword
             // 
-            this.btnChangePassword.Location = new System.Drawing.Point(559, 303);
+            this.btnChangePassword.Location = new System.Drawing.Point(559, 301);
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.Size = new System.Drawing.Size(141, 37);
             this.btnChangePassword.TabIndex = 18;
             this.btnChangePassword.Text = "Change Password";
             this.btnChangePassword.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnViewTest
             // 
-            this.button1.Location = new System.Drawing.Point(412, 303);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 37);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "View Tests";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnViewTest.Location = new System.Drawing.Point(412, 301);
+            this.btnViewTest.Name = "btnViewTest";
+            this.btnViewTest.Size = new System.Drawing.Size(129, 37);
+            this.btnViewTest.TabIndex = 16;
+            this.btnViewTest.Text = "View Tests";
+            this.btnViewTest.UseVisualStyleBackColor = true;
             // 
             // btnAddTests
             // 
-            this.btnAddTests.Location = new System.Drawing.Point(262, 303);
+            this.btnAddTests.Location = new System.Drawing.Point(262, 301);
             this.btnAddTests.Name = "btnAddTests";
             this.btnAddTests.Size = new System.Drawing.Size(113, 37);
             this.btnAddTests.TabIndex = 15;
             this.btnAddTests.Text = "Add Test";
             this.btnAddTests.UseVisualStyleBackColor = true;
+            this.btnAddTests.Click += new System.EventHandler(this.btnAddTests_Click);
             // 
             // btnAddReceptionist
             // 
-            this.btnAddReceptionist.Location = new System.Drawing.Point(88, 303);
+            this.btnAddReceptionist.Location = new System.Drawing.Point(88, 301);
             this.btnAddReceptionist.Name = "btnAddReceptionist";
             this.btnAddReceptionist.Size = new System.Drawing.Size(141, 37);
             this.btnAddReceptionist.TabIndex = 14;
             this.btnAddReceptionist.Text = "Add Receptionist";
             this.btnAddReceptionist.UseVisualStyleBackColor = true;
+            this.btnAddReceptionist.Click += new System.EventHandler(this.btnAddReceptionist_Click);
             // 
             // pictureBox1
             // 
@@ -146,9 +160,9 @@ namespace BillManagementApp
             this.lblGreeting.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGreeting.Location = new System.Drawing.Point(261, 81);
             this.lblGreeting.Name = "lblGreeting";
-            this.lblGreeting.Size = new System.Drawing.Size(274, 29);
+            this.lblGreeting.Size = new System.Drawing.Size(121, 29);
             this.lblGreeting.TabIndex = 0;
-            this.lblGreeting.Text = "Welcome [Admin Name]";
+            this.lblGreeting.Text = "Welcome ";
             // 
             // FormAdmin
             // 
@@ -159,6 +173,7 @@ namespace BillManagementApp
             this.MaximizeBox = false;
             this.Name = "FormAdmin";
             this.Text = "Admin";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormAdmin_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -177,9 +192,10 @@ namespace BillManagementApp
         private System.Windows.Forms.PictureBox picAddTest;
         private System.Windows.Forms.PictureBox picAddReceptionist;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnViewTest;
         private System.Windows.Forms.Button btnAddTests;
         private System.Windows.Forms.Button btnAddReceptionist;
         private System.Windows.Forms.Button btnChangePassword;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

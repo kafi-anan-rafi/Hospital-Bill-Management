@@ -13,3 +13,6 @@ C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillMana
 C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormReceptionist.resources
 C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormAddTest.resources
 C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormViewTests.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormPrepareBill.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormAddPatient.resources
+C:\Users\HP\Desktop\OOP-2\BillManagementApp\BillManagementApp\obj\Debug\BillManagementApp.FormGenerateBill.resources

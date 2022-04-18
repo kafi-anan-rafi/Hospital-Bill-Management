@@ -45,6 +45,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="FormGenerateBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGenerateBill.Designer.cs">
+      <DependentUpon>FormGenerateBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPatient.Designer.cs">
+      <DependentUpon>FormAddPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrepareBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrepareBill.Designer.cs">
+      <DependentUpon>FormPrepareBill.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAddReceptionist.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAddPatient.resx">
+      <DependentUpon>FormAddPatient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAddReceptionist.resx">
       <DependentUpon>FormAddReceptionist.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,8 +114,14 @@
     <EmbeddedResource Include="FormAdmin.resx">
       <DependentUpon>FormAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormGenerateBill.resx">
+      <DependentUpon>FormGenerateBill.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrepareBill.resx">
+      <DependentUpon>FormPrepareBill.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormReceptionist.resx">
       <DependentUpon>FormReceptionist.cs</DependentUpon>
